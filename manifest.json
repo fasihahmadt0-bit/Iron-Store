@@ -1,0 +1,21 @@
+{
+  "name": "Iron Store",
+  "short_name": "Iron Store",
+  "description": "Iron & Hardware Shop POS — Offline",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "POS",       "url": "/",        "description": "Open POS" },
+    { "name": "Add Entry", "url": "/?tab=add", "description": "Add income or expense" }
+  ]
+}
